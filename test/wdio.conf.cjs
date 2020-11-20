@@ -1,11 +1,11 @@
 // Modules 
 const fs = require('fs');
 const Jimp = require('jimp');
-const VisualRegressor = require('./shared/VisualRegressor.js');
-const ReportSummarizer = require('./shared/ReportSummarizer.js');
-const BrowserStack = require('./shared/BrowserStack.js');
-const Stager = require('./shared/Stager.js');
-const Paths = require('./shared/Paths.js');
+const VisualRegressor = require('./shared/VisualRegressor.cjs');
+const ReportSummarizer = require('./shared/ReportSummarizer.cjs');
+const BrowserStack = require('./shared/BrowserStack.cjs');
+const Stager = require('./shared/Stager.cjs');
+const Paths = require('./shared/Paths.cjs');
 
 // Parse CLI arguments
 const yargs = require('yargs/yargs')

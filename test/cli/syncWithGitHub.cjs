@@ -3,9 +3,9 @@
 // Any unnamed CLI options are 'pseudo-branches' whose logs will be kept, regardless of whether they exist on GitHub
 
 // *** Modules
-const GitHub = require('../shared/GitHub.js');
-const BrowserStack = require('../shared/BrowserStack.js');
-const Stager = require('../shared/Stager.js');
+const GitHub = require('../shared/GitHub.cjs');
+const BrowserStack = require('../shared/BrowserStack.cjs');
+const Stager = require('../shared/Stager.cjs');
 
 // Parse CLI arguments
 const yargs = require('yargs/yargs')

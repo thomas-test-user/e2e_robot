@@ -2,7 +2,7 @@
 const fs = require('fs');
 const json2csv = require('json2csv');
 const XLSX = require('xlsx');
-const Paths = require('./Paths.js');
+const Paths = require('./Paths.cjs');
 
 // Write a JSON array to a JSON and CSV file
 writeJsonAndCsv = (filePrefix, output) => {

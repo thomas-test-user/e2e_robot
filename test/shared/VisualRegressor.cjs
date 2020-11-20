@@ -5,7 +5,7 @@ const Jimp = require('jimp');
 const replaceColor = require('replace-color')
 const fs = require('fs');
 const json2csv = require('json2csv');
-const Paths = require('./Paths.js');
+const Paths = require('./Paths.cjs');
 
 const colorsToRed = [
   Buffer.from([255,0,0]),

@@ -1,7 +1,7 @@
 // Modules
 const fs = require('fs');
-const BrowserStack = require('./BrowserStack.js');
-const Paths = require('./Paths.js');
+const BrowserStack = require('./BrowserStack.cjs');
+const Paths = require('./Paths.cjs');
 
 // Returns index of highest number in array that is not NaN
 const indexOfMax = (values) => {

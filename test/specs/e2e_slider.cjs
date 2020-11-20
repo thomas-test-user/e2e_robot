@@ -1,5 +1,5 @@
 const fs = require('fs');
-const SharedBehaviors = require('../shared/SharedBehaviors');
+const SharedBehaviors = require('../shared/SharedBehaviors.cjs');
 
 describe('ae2e_text', () => {
   let calibration;  

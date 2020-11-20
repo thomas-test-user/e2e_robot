@@ -21,7 +21,7 @@ if (process.env.TRAVIS_BRANCH !== undefined) {
 if (process.env.BROWSERSTACK_USER === undefined || process.env.BROWSERSTACK_ACCESSKEY === undefined) {
   console.log('deleteLogs.js: could not find BROWSERSTACK_USER or BROWSERSTACK_ACCESSKEY. Skipping deletion of BrowserStack logs');
 } else {
-  const BrowserStack = require('../shared/BrowserStack.js');
+  const BrowserStack = require('../shared/BrowserStack.cjs');
   BrowserStack.deleteOneBuild(branch);
 }
 
@@ -29,7 +29,7 @@ if (process.env.BROWSERSTACK_USER === undefined || process.env.BROWSERSTACK_ACCE
 if (process.env.STAGING_PORT === undefined ||  process.env.STAGING_USERNAME === undefined || process.env.STAGING_PASSWORD === undefined) {
   console.log('deleteLogs.js: could not find STAGING_PORT, STAGING_USERNAME, or STAGING_PASSWORD. Skipping deletion of reports on staging server');
 } else {
-  const Stager = require('../shared/Stager.js');
+  const Stager = require('../shared/Stager.cjs');
   Stager.deleteDirectory('report/' + branch);
 }
 

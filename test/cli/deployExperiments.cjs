@@ -1,6 +1,6 @@
 // *** Modules
-const Paths = require('./../shared/Paths.js');
-const Stager = require('./../shared/Stager.js');
+const Paths = require('./../shared/Paths.cjs');
+const Stager = require('./../shared/Stager.cjs');
 const fs = require('fs');
 const Mustache = require('mustache');
 

@@ -18,5 +18,5 @@ if (process.env.TRAVIS_BRANCH !== undefined) {
 }
 
 // Delete branch in BrowserStack logs
-const BrowserStack = require('../shared/BrowserStack.js');
+const BrowserStack = require('../shared/BrowserStack.cjs');
 BrowserStack.deleteOneBuild(branch);

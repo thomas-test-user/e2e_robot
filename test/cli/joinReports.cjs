@@ -2,10 +2,10 @@
 // Upload or delete test on Stager via CLI arguments
 
 // *** Modules
-const Stager = require('../shared/Stager.js');
-const ReportSummarizer = require('../shared/ReportSummarizer.js');
+const Stager = require('../shared/Stager.cjs');
+const ReportSummarizer = require('../shared/ReportSummarizer.cjs');
 const fs = require('fs');
-const Paths = require('./test/shared/Paths.js');
+const Paths = require('./test/shared/Paths.cjs');
 
 // *** Parse CLI arguments
 const yargs = require('yargs/yargs')
