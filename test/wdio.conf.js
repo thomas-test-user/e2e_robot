@@ -1,4 +1,5 @@
 console.log('test an external PR');
+console.log('test an external PR (another commit)');
 
 // *** WebdriverIO config
 exports.config = {
